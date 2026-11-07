@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2864E8;
+  --color-background: #F7F8FA;
+  --color-surface: #FFFFFF;
+  --color-text: #171A21;
+  --color-text-secondary: #626B78;
+  --color-border: #E5E8ED;
+  --color-success: #168653;
+  --color-warning: #B7791F;
+  --color-danger: #C43D45;
+
+  --radius-card: 14px;
+  --radius-button: 10px;
+  --radius-input: 10px;
+  --radius-badge: 999px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E5E8ED;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4C9D3;
+}
+
+/* Pulse animation for train marker */
+@keyframes train-beacon {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.6);
+    opacity: 0.15;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.animate-beacon {
+  animation: train-beacon 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* MapLibre popup and canvas refinements */
+.maplibregl-popup-content {
+  padding: 10px 14px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(23, 26, 33, 0.12), 0 8px 10px -6px rgba(23, 26, 33, 0.08);
+  font-family: inherit;
+  border: 1px solid #E5E8ED;
+}
+
+.maplibregl-popup-close-button {
+  padding: 4px 8px;
+  color: #626B78;
+}

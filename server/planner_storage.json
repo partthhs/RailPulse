@@ -1,0 +1,74 @@
+{
+  "watchedTrains": [
+    {
+      "trainNumber": "12951",
+      "trainName": "Mumbai Rajdhani Express",
+      "journeyDate": "2026-12-20",
+      "sourceStation": "Mumbai Central",
+      "sourceStationCode": "MMCT",
+      "destinationStation": "New Delhi",
+      "destinationStationCode": "NDLS",
+      "boardingStation": "Mumbai Central",
+      "boardingStationCode": "MMCT",
+      "bookingStatus": "OPEN",
+      "notifyApproaching": true,
+      "notifyBookingOpening": true,
+      "notifyDelay": true,
+      "notifyPlatform": true,
+      "reservationOpeningDate": "2026-10-21",
+      "id": "watch-1794043493224-s2fja",
+      "createdAt": "2026-11-07T09:24:53.224Z"
+    },
+    {
+      "trainNumber": "12004",
+      "trainName": "Express Connect",
+      "journeyDate": "2026-11-08",
+      "sourceStation": "Mumbai Central",
+      "sourceStationCode": "MMCT",
+      "destinationStation": "Pune Junction",
+      "destinationStationCode": "PUNE",
+      "boardingStation": "Mumbai Central",
+      "boardingStationCode": "MMCT",
+      "bookingStatus": "OPEN",
+      "notifyApproaching": true,
+      "notifyBookingOpening": true,
+      "notifyDelay": true,
+      "notifyPlatform": true,
+      "reservationOpeningDate": "2026-09-09",
+      "id": "watch-1794053192325-z745i",
+      "createdAt": "2026-11-07T12:06:32.325Z"
+    }
+  ],
+  "fareAlerts": [
+    {
+      "trainNumber": "12951",
+      "trainName": "Mumbai Rajdhani Express",
+      "sourceStation": "Mumbai Central",
+      "destinationStation": "New Delhi",
+      "journeyDate": "2026-12-20",
+      "travelClass": "3A",
+      "targetFare": 1450,
+      "currentFare": 1620,
+      "previousFare": 1620,
+      "status": "MONITORING",
+      "isActive": true,
+      "id": "alert-1794043493262-lxzm9",
+      "lastCheckedAt": "2026-11-07T09:24:53.262Z",
+      "createdAt": "2026-11-07T09:24:53.262Z"
+    }
+  ],
+  "fareHistory": [],
+  "notifications": [
+    {
+      "id": "notif-welcome",
+      "title": "Welcome to RailPulse Smart Journey Planner",
+      "message": "Explore trains between stations, monitor fares, and track 60-day reservation opening dates.",
+      "type": "BOOKING_OPENING",
+      "relatedTrainNumber": "12951",
+      "relatedTrainName": "Mumbai Rajdhani",
+      "isRead": false,
+      "createdAt": "2026-11-07T09:24:07.414Z",
+      "actionUrl": "/explore"
+    }
+  ]
+}

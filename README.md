@@ -252,32 +252,6 @@ Potential future improvements include:
 
 ---
 
-## ⚠️ Disclaimer
+##Web screenshots
 
-RailPulse is an independent railway information and journey-planning project.
-
-It is not an official application of Indian Railways, IRCTC, or CRIS.
-
-Train status, schedules, fares, and other railway information are dependent on third-party data providers and may be delayed, incomplete, or unavailable.
-
-Users should verify important journey and reservation information through official railway channels.
-
-RailPulse does not represent a substitute for official railway announcements.
-
----
-
-## 👨‍💻 Development
-
-**Project:** RailPulse  
-**Category:** Railway Technology | Web Application | Travel Intelligence  
-**Status:** Under Development
-
-Built to make railway journeys more accessible, informative, and easier to plan.
-
----
-
-### ⭐ Support
-
-If you find this project interesting, consider giving the repository a ⭐ on GitHub!
-
-Contributions, suggestions, and feedback are welcome.
+https://1drv.ms/i/c/b4561c98282692fd/IQD7R4zU0Fo8QK5aAMTYhvAQAeHjtUwqS9IVtWUvCCdU3KA?e=lMyIG9

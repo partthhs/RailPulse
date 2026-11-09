@@ -66,36 +66,12 @@ The platform combines railway data with map-based visualization to provide a mor
 - Monitor selected journey fares where supported by available fare data.
 - Keep track of preferred train journeys.
 
-### 8. 📊 Journey Analytics
-- Visualize journey-related information.
-- Understand route progress and travel performance.
-- View delay and journey statistics where available.
-
-### 9. 🤖 Smart Travel Companion
-- A dedicated companion module for additional travel-related assistance and journey insights.
-
----
-
 ## 🖥️ Application Screenshots
 
-### Home Dashboard
-Search for trains, access featured journeys, explore planning modules, and manage recent searches.
+<img width="1777" height="978" alt="Screenshot 2026-11-07 235126" src="https://github.com/user-attachments/assets/fb8c2817-17ae-41a4-9949-78feb524a7f2" />
 
-![RailPulse Home Dashboard](docs/screenshots/home.png)
 
-### Train Tracking & Interactive Map
-Explore train routes, monitor journey progress, view reported speed, and identify upcoming stations.
-
-![RailPulse Train Tracking](docs/screenshots/train-tracking.png)
-
-### Monthly Travel Calendar
-Explore travel dates, select journey stations, and browse monthly train options.
-
-![RailPulse Monthly Calendar](docs/screenshots/travel-calendar.png)
-
-> Add the three application screenshots to `docs/screenshots/` using the filenames shown above.
-
----
+<img width="1822" height="1005" alt="Screenshot 2026-11-07 235143" src="https://github.com/user-attachments/assets/1f80bea6-2981-4b4e-aea9-86c8cd36cf83" />
 
 ## 🛠️ Technology Stack
 
@@ -147,7 +123,7 @@ cd RailPulse
 
 ```bash
 npm install
-```
+
 
 If your project uses multiple workspaces or separate frontend and backend packages, install dependencies according to the respective package configuration.
 
@@ -224,8 +200,6 @@ The application should distinguish between scheduled, estimated, and live-report
 
 Data availability and freshness depend on the external provider. Information may occasionally be delayed or unavailable.
 
----
-
 ## 🎯 Project Objectives
 
 - Make railway information easier to access.
@@ -234,8 +208,6 @@ Data availability and freshness depend on the external provider. Information may
 - Simplify travel-date exploration.
 - Bring multiple railway planning tools into one platform.
 - Create a convenient and informative travel-planning experience.
-
----
 
 ## 🚀 Future Enhancements
 
@@ -246,14 +218,6 @@ Potential future improvements include:
 - Advanced train delay prediction.
 - Improved fare and availability monitoring.
 - Browser push notifications.
-- Enhanced railway route analytics.
-- Personalized journey recommendations.
-- Expanded travel companion capabilities.
-
----
-
-##Web screenshots
-<img width="1777" height="978" alt="Screenshot 2026-11-07 235126" src="https://github.com/user-attachments/assets/9a1a1d0a-58df-4768-bb40-352b147847e9" />
 
 
 

@@ -253,5 +253,7 @@ Potential future improvements include:
 ---
 
 ##Web screenshots
+<img width="1777" height="978" alt="Screenshot 2026-11-07 235126" src="https://github.com/user-attachments/assets/9a1a1d0a-58df-4768-bb40-352b147847e9" />
+
 
 
